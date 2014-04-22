@@ -1,0 +1,12 @@
+use api key to connect to proverbialv1:
+MEHpGkivf6k4XmkbXU5fRSbxPRjhIGm3
+
+example:
+https://api.mongolab.com/api/1/databases?apiKey=MEHpGkivf6k4XmkbXU5fRSbxPRjhIGm3
+
+example2: list all colelctions in the database proverbialv1
+https://api.mongolab.com/api/1/databases/proverbialv1/collections/proverbs?apiKey=MEHpGkivf6k4XmkbXU5fRSbxPRjhIGm3
+
+example 3: return all records witgh category adversity
+"q" example - return all documents with "active" field of true:
+https://api.mongolab.com/api/1/databases/proverbialv1/collections/proverbs?q={"categoryID": "Adversity"}&apiKey=MEHpGkivf6k4XmkbXU5fRSbxPRjhIGm3

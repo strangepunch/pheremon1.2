@@ -1,0 +1,34 @@
+
+<div class="container-fluid">
+  <div class="row-fluid">
+
+      <div class="span10" align="center">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      About:
+        <select ng-model="Sorting">
+            <option value="">All Categories</option>
+            <option value="Adversity">Adversity</option>
+            <option value="Promises">Promises</option>
+            <option value="Promises">Protection</option>
+            <option value="Generosity">Generosity</option>
+        </select>
+       </div>
+
+ 
+    <div class="span10">
+      <!--Body content-->
+
+      <ul class="proverbs">
+        <li ng-repeat="passage in proverbs | filter:Sorting | filter:query | orderBy:orderProp" class="thumbnail">
+          <a href="#/proverbs/{{passage.categoryID}}" class="thumb"><img ng-src="{{passage.imageUrl}}"></a>
+            <a href="#/proverbs/{{passage.categoryID}}"><strong>{{passage.category}}<br></strong></a>
+            <a href="#/proverbs/{{passage.verseID}}">{{passage.verse}}</a>
+          <p>{{passage.text}}</p>
+            <br><br> <br><br>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

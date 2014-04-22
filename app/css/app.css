@@ -1,0 +1,29 @@
+/* app css stylesheet */
+
+.home {
+    background-image:url("img/backgrounds/Wallpaper1080p89.jpg");
+}
+body {
+  background-image:url("img/backgrounds/Wallpaper1080p89.jpg");
+  padding-top: 20px;
+}
+
+.proverbs {
+  list-style: none;
+}
+
+.thumb {
+  float: left;
+  margin: -1em 1em 1.5em 0em;
+  padding-bottom: 1em;
+  height: 100px;
+  width: 100px;
+}
+
+.proverbs li {
+  clear: both;
+  background-color: mintcream;
+  height: 175px;
+  padding-top: 15px;
+  margin-bottom: 25px;
+}

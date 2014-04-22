@@ -1,0 +1,10 @@
+Connect to remote server --mongolab.com using username and password and import the documents from the local file domain-bk.json into remote mongodb server:
+
+$ mongoimport -h id.mongolab.com:47307 -d heroku_app -c domain -u username123 -p password123 --file domain-bk.json
+
+
+typical connection established by:
+mongo ds027348.mongolab.com:27348/proverbialv1 -u dev1 -p strangepunch1
+
+import json file using this connection:
+mongoimport -h ds027348.mongolab.com:27348 -d proverbialv1 -c proverbs -u dev1 -p strangepunch1 --file proverbs.json --jsonArray 

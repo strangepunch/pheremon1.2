@@ -1,0 +1,870 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #19c4ed; 
+    background:url(../../images/background-iphonelines-ltblue.png);
+	background-repeat:repeat-x,y;
+}
+
+.area {
+width:540px;
+height:960px;
+ background-color:#19c4ed;
+    margin-left:0px;
+    margin-top:0px;
+    /**background:url(../../images/background-iphonelines-ltblue.png) repeat vertical; */
+}
+/**
+* lists & links
+*/
+
+ul li{
+	margin-bottom: 100px;
+	background-color: #19c4ed;
+	
+}
+
+form {
+  width:300px;
+  margin: 20px auto;
+}
+
+input {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  width:300px;
+  min-height:30px;
+  display:block;
+  margin-bottom:50px;
+  margin-top:10px;
+  outline: none;
+
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+}
+
+input[type=submit] {
+  background:brown;
+  padding:10px;
+}
+
+input[type=Qtext] {
+  background:none;
+  padding:5px;
+  width:width: 80%; height: 50%;
+  min-height:200px;
+  height:200px; line-height:200px;
+  text-align:top;  
+}
+//text entry area
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  width:300px;
+  min-height:300px;
+  display:block;
+  margin-bottom:100px;
+  margin-top:10px;
+  outline: none;
+
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+}
+  /* QACombo container */
+  #QACombo { 
+  width: 100%; height: 100%; background: #080829; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:60px;
+  margin-top:10px;
+  outline: none;
+
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  
+  /* Question container */
+  #Qseg { 
+  width: 90%; height: 100%; background: #FFFFFF; 
+  margin-top:20px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Question header */
+  #Qhdr { 
+   width: 30%; height: 100%; background: #000000;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  
+  
+  }
+  
+  /* Question text segment */
+  #QtxtSeg { 
+  width: 90%; height: 100%; background: #FFFFFF; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:none;
+  font-size:22px;
+  font-weight:bold;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-left:20px;
+  margin-right:10px;
+
+  }
+  
+  /* Question text segment */
+  #QtxtSegMyQ { 
+  width: 90%; height: 200%; background: #FFFFFF; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:none;
+  font-size:22px;
+  font-weight:bold;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-left:20px;
+  margin-right:10px;
+
+  }  
+  /* Question like/dislike segment */
+  #QlikeSeg { 
+  width: 98%; height: 100%; background: #FFFFFF; 
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer container */
+  #Aseg { 
+  width: 90%; height: 90%; background: #484859; 
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* My Answers container */
+  #AsegMe { 
+  width: 90%; height: 100%; background: #FFFFFF; 
+  margin-top:20px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer header */
+  #Ahdr { width: 90%; height: 90%; background: #484859;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  }
+
+  
+  /* Answer text segment */
+  #AtxtSeg { 
+  width: 90%; height: 100%; background: #484859; 
+  color: white; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  border:none;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-right:20px;
+  margin-left:10px;
+  }
+  
+ /* Answer like/dislike butn segment */
+  #AlikeSeg { 
+  width: 98%; height: 100%; background: #484859; 
+  align:right;
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+ 
+ /* answer butn segment */
+ #AbutnSeg { 
+  width: 100%; height: 100%; background: #080829; 
+    -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  /* more */
+  #Q1more {
+   width: 90%;
+   margin-top:5px;
+  }
+  
+  /#home, save butns*/
+  span.home {
+   margin-left:5px;
+	}
+  span.save {
+	margin-right:5px;
+	}
+	
+  span.answer {
+		
+	}
+	
+/* Theme choices 1 thru 4
+choice 1 = #name1 ... tropical theme
+choice 2 = #name2 ...
+choice 3 ...      ...
+choice 4 ... has a choice between #name4 and #nameB4 ...choice B is for different highlight depend on if it's posted by the user or by other people.
+etc.*/
+	
+/*choice 1*/
+  /* QACombo container */
+  #QACombo1 { 
+  width: 100%; height: 100%; background: #a2c377; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:60px;
+  margin-top:10px;
+  outline: none;
+
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  
+  /* Question container */
+  #Qseg1 { 
+  width: 90%; height: 100%; background: #f7ab50; 
+  margin-top:20px;
+  border-style:dashed;
+  border-width: thick;
+  border-color:#fff5ac;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Question header */
+  #Qhdr1 { 
+   width: 30%; height: 100%; background: #f7ab50;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  
+  
+  }
+  
+  /* Question text segment */
+  #QtxtSeg1 { 
+  width: 90%; height: 100%; background: #f7ab50; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:none;
+  font-size:22px;
+  font-weight:bold;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-left:20px;
+  margin-right:10px;
+
+  }
+  
+  /* Question like/dislike segment */
+  #QlikeSeg1 { 
+  width: 98%; height: 100%; background: #f7ab50; 
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer container */
+  #Aseg1 { 
+  width: 90%; height: 90%; background: #f48373; 
+  border-style:dashed;
+  border-width: thick;
+  border-color:#ffffff;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer header */
+  #Ahdr1 { width: 90%; height: 90%; background: #f48373;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  }
+
+  
+  /* Answer text segment */
+  #AtxtSeg1 { 
+  width: 90%; height: 100%; background: #f48373; 
+  color: white; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  border:none;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-right:20px;
+  margin-left:10px;
+  }
+  
+ /* Answer like/dislike butn segment */
+  #AlikeSeg1 { 
+  width: 98%; height: 100%; background: #f48373; 
+  align:right;
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+ 
+ /* answer butn segment */
+ #AbutnSeg1 { 
+  width: 100%; height: 100%; background: #a2c377; 
+    -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+ 
+/*choice 2*/
+  /* QACombo container */
+  #QACombo2 { 
+  width: 100%; height: 100%; background: #a2c377; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:60px;
+  margin-top:10px;
+  outline: none;
+
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  
+  /* Question container */
+  #Qseg2 { 
+  width: 90%; height: 100%; background: #ffffff; 
+  margin-top:20px;
+  border-style:dashed;
+  border-width: 10px;
+  border-color:#2E3919;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Question header */
+  #Qhdr2 { 
+   width: 30%; height: 100%; background: #ffffff;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  
+  
+  }
+  
+  /* Question text segment */
+  #QtxtSeg2 { 
+  width: 90%; height: 100%; background: #ffffff; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:none;
+  font-size:22px;
+  font-weight:bold;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-left:20px;
+  margin-right:10px;
+
+  }
+  
+  /* Question like/dislike segment */
+  #QlikeSeg2 { 
+  width: 98%; height: 100%; background: #ffffff; 
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer container */
+  #Aseg2 { 
+  width: 90%; height: 90%; background: #f48373; 
+  border-style:dashed;
+  border-width: 10px;
+  border-color:#ed665b;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer header */
+  #Ahdr2 { width: 90%; height: 90%; background: #f48373;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  }
+
+  
+  /* Answer text segment */
+  #AtxtSeg2 { 
+  width: 90%; height: 100%; background: #f48373; 
+  color: white; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  border:none;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-right:20px;
+  margin-left:10px;
+  }
+  
+ /* Answer like/dislike butn segment */
+  #AlikeSeg2 { 
+  width: 98%; height: 100%; background: #f48373; 
+  align:right;
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+ 
+ /* answer butn segment */
+ #AbutnSeg2 { 
+  width: 100%; height: 100%; background: #a2c377; 
+    -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  
+  
+/*choice 3*/
+  /* QACombo container */
+  #QACombo3 { 
+  width: 100%; height: 100%; background: #ffffff; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:60px;
+  margin-top:10px;
+  outline: none;
+
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  
+  /* Question container */
+  #Qseg3 { 
+  width: 90%; height: 100%; background: #ffffff; 
+  margin-top:20px;
+  border-style:dashed;
+  border-width: 10px;
+  border-color:#2E3919;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Question header */
+  #Qhdr3 { 
+   width: 30%; height: 100%; background: #ffffff;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  
+  
+  }
+  
+  /* Question text segment */
+  #QtxtSeg3 { 
+  width: 90%; height: 100%; background: #ffffff; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:none;
+  font-size:22px;
+  font-weight:bold;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-left:20px;
+  margin-right:10px;
+
+  }
+  
+  /* Question like/dislike segment */
+  #QlikeSeg3 { 
+  width: 98%; height: 100%; background: #ffffff; 
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer container */
+  #Aseg3 { 
+  width: 90%; height: 90%; background: #f48373; 
+  border-style:dashed;
+  border-width: 10px;
+  border-color:#ed665b;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer header */
+  #Ahdr3 { width: 90%; height: 90%; background: #f48373;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  }
+
+  
+  /* Answer text segment */
+  #AtxtSeg3 { 
+  width: 90%; height: 100%; background: #f48373; 
+  color: white; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  border:none;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-right:20px;
+  margin-left:10px;
+  }
+  
+ /* Answer like/dislike butn segment */
+  #AlikeSeg3 { 
+  width: 98%; height: 100%; background: #f48373; 
+  align:right;
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+ 
+ /* answer butn segment */
+ #AbutnSeg3 { 
+  width: 100%; height: 100%; background: #a2c377; 
+    -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  
+/*choice 4*/
+  /* QACombo container */
+  #QACombo4 { 
+  width: 100%; height: 100%; background: #ffffff; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:60px;
+  margin-top:10px;
+  outline: none;
+
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  
+  /* Question container */
+  #Qseg4 { 
+  width: 90%; height: 100%; background: #a2c377; 
+  margin-top:20px;
+  /* border-style:dashed;
+  border-width: 10px;
+  border-color:#2E3919;*/
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Question header */
+  #Qhdr4 { 
+   width: 30%; height: 100%; background: #a2c377;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  
+  
+  }
+  
+  /* Question text segment */
+  #QtxtSeg4 { 
+  width: 90%; height: 100%; background: #a2c377; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:none;
+  font-size:22px;
+  font-weight:bold;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-left:20px;
+  margin-right:10px;
+
+  }
+  
+  /* Question like/dislike segment */
+  #QlikeSeg4 { 
+  width: 98%; height: 100%; background: #a2c377; 
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer container */
+  #Aseg4 { 
+  width: 90%; height: 90%; background: #f48373; 
+  border-style:dashed;
+  border-width: 10px;
+  border-color:#ed665b;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  #AsegB4{ 
+  width: 90%; height: 90%; background: #ffffff; 
+  border-style:dashed;
+  border-width: 10px;
+  border-color:#ed665b;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  
+  }
+  
+  /* Answer header */
+  #Ahdr4 { width: 90%; height: 90%; background: #f48373;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;  }
+
+  
+  /* Answer text segment */
+  #AtxtSeg4 { 
+  width: 90%; height: 100%; background: #f48373; 
+  color: white; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  border:none;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-right:20px;
+  margin-left:10px;
+  }
+  #AtxtSegB4 { 
+  width: 90%; height: 100%; background: #ffffff; 
+  color: black; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:none;
+  font-size:20px;
+  min-height:30px;
+  display:block;
+  margin-bottom:40px;
+  margin-top:10px;
+  margin-right:20px;
+  margin-left:10px;
+  }
+  
+ /* Answer like/dislike butn segment */
+  #AlikeSeg4 { 
+  width: 98%; height: 100%; background: #f48373; 
+  align:right;
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  #AlikeSegB4 { 
+  width: 98%; height: 100%; background: #ffffff; 
+  align:right;
+  border:none;
+  font-size:32px;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+ 
+ /* answer butn segment */
+ #AbutnSeg4 { 
+  width: 100%; height: 100%; background: #a2ccc9; 
+    -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
+  #AbutnSegB4 { 
+  width: 100%; height: 100%; background: #ffffff; 
+    -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  -ms-border-radius:10px;
+  border-radius:10px;
+  }
